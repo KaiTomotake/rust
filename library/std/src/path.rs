@@ -2971,7 +2971,7 @@ impl Path {
     /// Creates an owned [`PathBuf`] with `path` adjoined to `self`.
     ///
     /// If `path` is absolute, it replaces the current path.
-    /// 
+    ///
     /// On Windows:
     ///
     /// * if `path` has a root but no prefix (e.g., `\windows`), it
